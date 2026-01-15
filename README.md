@@ -1,19 +1,19 @@
 # Female Diabetes Predictor
 
 ## Project Description
-This project implements a machine learning–based female diabetes prediction model using a structured clinical dataset derived from female patients. The goal is to estimate the likelihood of diabetes based on routinely collected medical and demographic indicators.
+This project implements a machine learning-based female diabetes prediction model using a structured clinical dataset derived from female patients. The goal is to estimate the likelihood of diabetes based on routinely collected medical and demographic indicators.
 
 ## Dataset Overview
 The model is trained on the following features:
-- Pregnancies – Number of times pregnant
-- Glucose – Plasma glucose concentration
-- BloodPressure – Diastolic blood pressure (mm Hg)
-- SkinThickness – Triceps skinfold thickness (mm)
-- Insulin – 2-hour serum insulin (µU/ml)
-- BMI – Body mass index (weight in kg / height in m²)
-- Pedigree – Diabetes pedigree function (genetic risk indicator)
-- Age – Age in years
-- Class – Target variable indicating diabetes status [1 (diabetic) / 0 (non-diabetic)]
+- Pregnancies: Number of times pregnant
+- Glucose: Plasma glucose concentration
+- BloodPressure: Diastolic blood pressure (mm Hg)
+- SkinThickness: Triceps skinfold thickness (mm)
+- Insulin: 2-hour serum insulin (µU/ml)
+- BMI: Body mass index (weight in kg / height in m²)
+- Pedigree: Diabetes pedigree function (genetic risk indicator)
+- Age: Age in years
+- Class: Target variable indicating diabetes status [1 (diabetic) / 0 (non-diabetic)]
 
 ## Model Description
 The predictor uses supervised learning to classify whether a female patient is likely to have diabetes based on the input features. Data preprocessing includes handling missing or zero-valued clinical measurements, feature scaling, and exploratory analysis to identify key risk factors. Multiple classification algorithms were evaluated, with performance assessed using metrics such as accuracy, precision, recall, and ROC-AUC.
