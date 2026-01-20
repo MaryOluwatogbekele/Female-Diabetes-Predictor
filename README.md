@@ -1,4 +1,4 @@
-# Female Diabetes Predictor
+# Women Diabetes Predictor
 
 ## Project Description
 This project implements a machine learning-based female diabetes prediction model using a structured clinical dataset derived from female patients. The goal is to estimate the likelihood of diabetes based on routinely collected medical and demographic indicators.
